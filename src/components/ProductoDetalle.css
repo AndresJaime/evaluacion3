@@ -1,0 +1,127 @@
+/* ProductoDetalle.css */
+.contenedor-detalle-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tarjeta-principal-detalle-producto {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.tarjeta-principal-detalle-producto:hover {
+  transform: scale(1.02);
+}
+
+.tarjeta-detalle-producto {
+  display: flex;
+  flex-direction: column; /* Cambiar a columna para apilar los elementos verticalmente */
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.tarjeta-detalle-producto:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.seccion-titulo-producto {
+  text-align: center;
+  margin-bottom: 20px; /* Añadir margen inferior para separación */
+}
+
+.seccion-imagen-producto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Añadir margen inferior para separación */
+}
+
+.seccion-precio-producto {
+  text-align: center;
+}
+
+.tarjeta-descripcion-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.tarjeta-descripcion-producto:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-detalle-producto {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.imagen-detalle-producto:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.marcador-imagen-placeholder {
+  height: 300px;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.titulo-producto {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.categoria-producto.text-muted {
+  font-size: 1.5rem;
+  color: blue !important;
+  margin-bottom: 10px;
+}
+
+.etiqueta-precio-producto {
+  font-size: 1.5rem;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.precio-producto {
+  font-size: 2rem;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.descripcion-producto {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
